@@ -1,16 +1,33 @@
-# React + Vite
+# Silas L. — Full-Stack Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A personal portfolio website showcasing engineering projects, experience, and technical skills.
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Full-Stack Developer building practical web and software systems, from user interfaces to backend infrastructure.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React** + Vite
+- **Tailwind CSS** for styling
+- **JavaScript** (ES modules)
+- **Oxlint** for linting
 
-## Expanding the Oxlint configuration
+## Projects
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Highlighted engineering case studies including:
+
+- **Guidely** — RAG-based internal knowledge assistant with document ingestion, chunking, embeddings, vector search, and LLM generation
+- **Computer vision projects** — Object detection, person classification, bounding boxes, and counting pipelines
+
+## Experience
+
+Factual and concise role descriptions with organizations and dates.
+
+## Contact
+
+Get in touch via the site's contact section.
+
+## License
+
+MIT
