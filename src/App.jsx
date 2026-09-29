@@ -1,3 +1,5 @@
+import About from "./sections/About"
+
 function App() {
   return (
     <main className="min-h-screen bg-paper">
@@ -53,8 +55,10 @@ function App() {
           </div>
         </div>
       </section>
+
+      <About />
     </main>
-  );
+  )
 }
 
 export default App;
