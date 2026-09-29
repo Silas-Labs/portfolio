@@ -2,57 +2,81 @@ import SectionHeading from "../components/SectionHeading"
 
 function About() {
   return (
-    <section id="about" className="mx-auto px-6 py-12 lg:px-10">
-      <SectionHeading>About</SectionHeading>
+    <section
+      id="about"
+      className="border-t border-border bg-charcoal py-24"
+      aria-labelledby="about-heading"
+    >
+      <div className="mx-auto max-w-[1200px] px-6 lg:px-10">
+        <SectionHeading id="about-heading" className="text-warm-white">
+          About
+        </SectionHeading>
 
-      <div className="max-w-3xl space-y-8">
-        <p className="text-muted leading-relaxed">
-          Full-Stack Developer who builds practical web and software systems,
-          from interfaces people use to the backend systems that make them work.
-        </p>
+        <div className="grid gap-16 lg:grid-cols-[1fr_400px] lg:gap-24">
+          {/* Bio */}
+          <div className="space-y-6">
+            <p className="text-lg leading-relaxed text-warm-white/90">
+              I'm a full-stack developer focused on building practical software
+              — systems that are reliable, maintainable, and actually useful to
+              the people who use them.
+            </p>
+            <p className="leading-relaxed text-warm-white/60">
+              My work spans web interfaces, backend APIs, and applied machine
+              learning pipelines. I care about understanding a problem before
+              writing code, and I prefer working solutions over impressive
+              complexity.
+            </p>
+            <p className="leading-relaxed text-warm-white/60">
+              Currently available for freelance work and interesting projects.
+            </p>
 
-        <div className="grid grid-cols-2 gap-6">
-          <div>
-            <p className="font-display font-semibold text-sm uppercase tracking-[0.1em] text-accent mb-2">Role</p>
-            <p className="text-muted">Full-Stack Developer</p>
+            <div className="pt-4">
+              <a
+                href="#contact"
+                className="inline-flex items-center border border-warm-white/30 px-5 py-2.5 text-sm font-medium text-warm-white transition-colors hover:border-warm-white hover:bg-warm-white hover:text-charcoal"
+              >
+                Get in touch →
+              </a>
+            </div>
           </div>
-          <div>
-            <p className="font-display font-semibold text-sm uppercase tracking-[0.1em] text-accent mb-2">Location</p>
-            <p className="text-muted">Remote</p>
+
+          {/* Details */}
+          <div className="space-y-8">
+            <div>
+              <p className="mb-3 font-mono text-xs uppercase tracking-[0.15em] text-accent">
+                Focus
+              </p>
+              <ul className="space-y-1.5 text-sm text-warm-white/70">
+                <li>Full-stack web development</li>
+                <li>Backend APIs & system design</li>
+                <li>Applied machine learning</li>
+                <li>RAG systems & LLM integrations</li>
+              </ul>
+            </div>
+
+            <div>
+              <p className="mb-3 font-mono text-xs uppercase tracking-[0.15em] text-accent">
+                Stack
+              </p>
+              <ul className="space-y-1.5 text-sm text-warm-white/70">
+                <li>React · Vite · Tailwind CSS</li>
+                <li>Python · FastAPI · Node.js</li>
+                <li>Pinecone · OpenAI APIs</li>
+                <li>Git · Vercel · Linux</li>
+              </ul>
+            </div>
+
+            <div>
+              <p className="mb-3 font-mono text-xs uppercase tracking-[0.15em] text-accent">
+                Location
+              </p>
+              <p className="text-sm text-warm-white/70">
+                {/* Add your actual location */}
+                [Location]
+              </p>
+            </div>
           </div>
         </div>
-
-        <h3 className="font-display font-medium text-lg mt-6">Selected Work</h3>
-
-        <ul className="mt-4 space-y-3 text-muted">
-          <li className="flex items-start">
-            <svg
-              className="h-4 w-4 flex-shrink-0 bg-accent rounded-md mt-1"
-              viewBox="0 0 24 24"
-            >
-              <path d="M12 5v14M5 12h14" />
-            </svg>
-            <span>Guidely — RAG-based internal knowledge assistant with document ingestion, chunking, embeddings, vector search, and LLM generation</span>
-          </li>
-          <li className="flex items-start">
-            <svg
-              className="h-4 w-4 flex-shrink-0 bg-accent rounded-md mt-1"
-              viewBox="0 0 24 24"
-            >
-              <path d="M12 5v14M5 12h14" />
-            </svg>
-            <span>Computer vision project — Object detection, person classification, bounding boxes, and counting pipeline</span>
-          </li>
-          <li className="flex items-start">
-            <svg
-              className="h-4 w-4 flex-shrink-0 bg-accent rounded-md mt-1"
-              viewBox="0 0 24 24"
-            >
-              <path d="M12 5v14M5 12h14" />
-            </svg>
-            <span>Android debt-management application — DebtFlow with image/video input and object detection pipeline</span>
-          </li>
-        </ul>
       </div>
     </section>
   )
