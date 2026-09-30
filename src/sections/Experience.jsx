@@ -1,23 +1,22 @@
 import SectionHeading from "../components/SectionHeading"
 
 /*
- * PLACEHOLDER — Replace with your actual experience.
- * Do not fabricate roles, organizations, dates, or responsibilities.
- * Format per entry:
+ * Experience — factual entries only. Do not fabricate roles, organizations,
+ * dates, or responsibilities. Format per entry:
  *   role, org, dates, description, highlights[]
  */
 const experience = [
-  // {
-  //   id: "role-1",
-  //   role: "Your Role",
-  //   org: "Organization Name",
-  //   dates: "Month Year – Month Year",
-  //   description: "Brief description of what you worked on.",
-  //   highlights: [
-  //     "Specific thing you built or contributed to",
-  //     "Another concrete contribution",
-  //   ],
-  // },
+  {
+    id: "zone01",
+    role: "Software Developer",
+    org: "Zone01 Kisumu",
+    dates: "January 12, 2026 – Present",
+    description: "",
+    highlights: [
+      "Spoke at a conference about building fault-tolerant systems",
+      "Gave a talk on the TCP and OSI models, focusing on the physical and datalink layers",
+    ],
+  },
 ]
 
 function ExperienceEntry({ entry }) {
