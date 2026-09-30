@@ -1,14 +1,14 @@
 import SectionHeading from "../components/SectionHeading"
 
 /*
- * PLACEHOLDER — Replace with your actual resume.
- * - resumePdf: URL to a hosted resume PDF (or "" to hide the button)
+ * Resume — factual entries only.
+ * - resumePdf: path to a hosted resume PDF, or "" to hide the button
  * - summary: brief professional summary shown inline
  */
-const resumePdf = "" // "https://yourdomain.com/resume.pdf"
+const resumePdf = "/resume.pdf"
 
 const summary =
-  "/* Add a brief professional summary here — a few sentences about your background, focus, and what you're looking for. */"
+  "Full-stack developer building practical software — from user interfaces to backend APIs and applied machine learning pipelines. Currently a Software Developer at Zone01 Kisumu."
 
 function Resume() {
   return (
