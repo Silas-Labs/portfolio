@@ -1,26 +1,5 @@
 import SectionHeading from "../components/SectionHeading"
-
-/*
- * PLACEHOLDER — Replace with your actual contact links.
- * Only include channels you actually check.
- */
-const contactLinks = [
-  {
-    label: "Email",
-    href: "mailto:your@email.com",
-    display: "your@email.com",
-  },
-  {
-    label: "GitHub",
-    href: "https://github.com/yourusername",
-    display: "github.com/yourusername",
-  },
-  {
-    label: "LinkedIn",
-    href: "https://linkedin.com/in/yourusername",
-    display: "linkedin.com/in/yourusername",
-  },
-]
+import { socials, email } from "../data/social"
 
 function Contact() {
   return (
@@ -43,13 +22,24 @@ function Contact() {
 
           {/* Right — links */}
           <div className="space-y-0">
-            {contactLinks.map((link) => (
+            {email && (
+              <a
+                href={`mailto:${email}`}
+                className="flex items-center justify-between border-t border-border py-5 text-sm transition-colors hover:text-accent"
+              >
+                <span className="font-mono text-xs uppercase tracking-[0.1em] text-muted">
+                  Email
+                </span>
+                <span className="font-medium">{email}</span>
+              </a>
+            )}
+            {socials.map((link) => (
               <a
                 key={link.label}
                 href={link.href}
                 className="flex items-center justify-between border-t border-border py-5 text-sm transition-colors hover:text-accent"
-                target={link.href.startsWith("mailto") ? undefined : "_blank"}
-                rel={link.href.startsWith("mailto") ? undefined : "noopener noreferrer"}
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <span className="font-mono text-xs uppercase tracking-[0.1em] text-muted">
                   {link.label}
