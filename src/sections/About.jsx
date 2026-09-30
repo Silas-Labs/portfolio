@@ -1,4 +1,5 @@
 import SectionHeading from "../components/SectionHeading"
+import photo from "../assets/photo-800.jpg"
 
 function About() {
   return (
@@ -42,6 +43,14 @@ function About() {
 
           {/* Details */}
           <div className="space-y-8">
+            <div className="overflow-hidden rounded-sm">
+              <img
+                src={photo}
+                alt="Silas Lelei"
+                className="aspect-[3/4] w-full object-cover"
+              />
+            </div>
+
             <div>
               <p className="mb-3 font-mono text-xs uppercase tracking-[0.15em] text-accent">
                 Focus

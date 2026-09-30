@@ -1,5 +1,5 @@
 import { socials } from "../data/social"
-import avatar from "../assets/avatar.svg"
+import photo from "../assets/photo-1200.jpg"
 
 function Hero() {
   return (
@@ -60,7 +60,7 @@ function Hero() {
           <div className="relative">
             <div className="h-72 w-72 overflow-hidden rounded-sm bg-charcoal sm:h-80 sm:w-80 lg:h-96 lg:w-96">
               <img
-                src={avatar}
+                src={photo}
                 alt="Silas Lelei"
                 className="h-full w-full object-cover"
               />
