@@ -8,9 +8,9 @@ function Navbar() {
         <a
           href="/"
           className="font-display text-lg font-semibold tracking-tight transition-colors hover:text-accent"
-          aria-label="Silas L. — home"
+          aria-label="Silas Lelei — home"
         >
-          Silas L.
+          Silas Lelei
         </a>
 
         <div className="hidden items-center gap-8 text-sm md:flex">

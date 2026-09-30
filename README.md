@@ -1,4 +1,4 @@
-# Silas L. — Full-Stack Developer Portfolio
+# Silas Lelei — Full-Stack Developer Portfolio
 
 A personal portfolio website showcasing engineering projects, experience, and technical skills.
 
@@ -17,8 +17,13 @@ Full-Stack Developer building practical web and software systems, from user inte
 
 Highlighted engineering case studies including:
 
-- **Guidely** — RAG-based internal knowledge assistant with document ingestion, chunking, embeddings, vector search, and LLM generation
-- **Computer vision projects** — Object detection, person classification, bounding boxes, and counting pipelines
+- **Guidely** — RAG-based internal knowledge assistant: document ingestion, chunking, embeddings, vector search, and LLM generation with source attribution
+- **detecto** — Computer vision pipeline: YOLO person/object detection over images, video, and live camera with bounding boxes, history, and stats
+- **LendTrack** — Full-stack loan management: React SPA + Express + Firebase/Firestore, Zero-Trust security rules, Resend email automation, Cloud Run deployment
+- **Clinic Manager** — Role-based clinic system: React/TS + Express + Prisma/PostgreSQL, five role dashboards (admin, doctor, front desk, lab, pharmacy)
+- **Chama** — Digital trust layer for Kenya's chama savings groups: six bounded modules (identity, rotation engine, ledger, governance, channels, offline sync) with maker-checker approvals
+- **Micro-Influencer Marketplace** — Go/Fiber + Next.js marketplace with sqlc, asynq task queue, M-Pesa settlement, and Fly.io deployment
+- **Local Leaders Fund** — WordPress platform; owned the SEO overhaul and CI/CD that took the site to the top of Google from July
 
 ## Experience
 
