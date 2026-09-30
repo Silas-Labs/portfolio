@@ -55,7 +55,7 @@ function Hero() {
           </div>
         </div>
 
-        {/* Right — avatar */}
+        {/* Right — photo */}
         <div className="flex justify-center lg:justify-end">
           <div className="relative">
             <div className="h-72 w-72 overflow-hidden rounded-sm bg-charcoal sm:h-80 sm:w-80 lg:h-96 lg:w-96">

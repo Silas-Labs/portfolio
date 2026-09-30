@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Silas Lelei avatar monogram">
-  <rect width="200" height="200" fill="#1b1c1a"/>
-  <rect x="16" y="16" width="168" height="168" fill="none" stroke="#3a3a36" stroke-width="1"/>
-  <rect x="16" y="16" width="40" height="40" fill="none" stroke="#c65d3a" stroke-width="2"/>
-  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
-    <text x="100" y="126" text-anchor="middle" font-size="96" font-weight="600" fill="#f2f0e9" letter-spacing="-6">SL</text>
-  </g>
-</svg>
