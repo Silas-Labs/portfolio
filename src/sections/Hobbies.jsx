@@ -1,14 +1,30 @@
 import SectionHeading from "../components/SectionHeading"
 
 /*
- * PLACEHOLDER — Replace with your actual hobbies and interests.
- * Do not fabricate. Each entry: name, description.
+ * Hobbies and interests — factual entries only.
+ * Each entry: name, description.
  */
 const hobbies = [
-  // {
-  //   name: "Hobby name",
-  //   description: "Brief description of what you enjoy about it.",
-  // },
+  {
+    name: "CCNA",
+    description:
+      "Cisco networking fundamentals — routing, switching, VLANs, ACLs, and the TCP/IP stack.",
+  },
+  {
+    name: "Biometrics & Access Control",
+    description:
+      "Physical identity systems — fingerprint, facial, and card-based access control and how they integrate with network infrastructure.",
+  },
+  {
+    name: "CCTV",
+    description:
+      "Video surveillance — camera placement, recording infrastructure, and networked monitoring systems.",
+  },
+  {
+    name: "IP Telephony & Intercoms",
+    description:
+      "VoIP and intercom systems — SIP trunking, PBX setup, and building-wide communication infrastructure.",
+  },
 ]
 
 function Hobbies() {
