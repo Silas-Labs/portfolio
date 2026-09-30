@@ -43,7 +43,7 @@ function About() {
 
           {/* Details */}
           <div className="space-y-8">
-            <div className="overflow-hidden rounded-sm">
+            <div className="overflow-hidden rounded-full">
               <img
                 src={photo}
                 alt="Silas Lelei"
