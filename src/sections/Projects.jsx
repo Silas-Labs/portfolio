@@ -42,6 +42,11 @@ function ProjectEntry({ project, index }) {
         >
           {project.name}
         </h3>
+        {project.role && (
+          <p className="mt-2 font-mono text-xs uppercase tracking-[0.15em] text-accent">
+            {project.role}
+          </p>
+        )}
         <p className="mt-4 max-w-xl leading-relaxed text-muted">
           {project.summary}
         </p>
