@@ -58,7 +58,7 @@ function Hero() {
         {/* Right — photo */}
         <div className="flex justify-center lg:justify-end">
           <div className="relative">
-            <div className="h-72 w-72 overflow-hidden rounded-sm bg-charcoal sm:h-80 sm:w-80 lg:h-96 lg:w-96">
+            <div className="h-64 w-48 overflow-hidden rounded-sm bg-charcoal sm:h-96 sm:w-72 lg:h-[34rem] lg:w-[25.5rem]">
               <img
                 src={photo}
                 alt="Silas Lelei"
