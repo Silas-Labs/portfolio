@@ -80,8 +80,7 @@ function About() {
                 Location
               </p>
               <p className="text-sm text-warm-white/70">
-                {/* Replace with your actual location */}
-                [Location]
+                Kisumu
               </p>
             </div>
           </div>
